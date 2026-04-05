@@ -78,7 +78,7 @@ export default function Testimonials() {
                     <span className="text-white/60">{testimonial.position}</span>
                   </div>
                   <p className="text-lg text-white/80 leading-relaxed">
-                    "{testimonial.content}"
+                    &quot;{testimonial.content}&quot;
                   </p>
                 </div>
               </SwiperSlide>

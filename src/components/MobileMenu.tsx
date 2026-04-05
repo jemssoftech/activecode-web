@@ -42,7 +42,7 @@ const services = [
 export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   const pathname = usePathname()
   const firstFocusableRef = useRef<HTMLButtonElement>(null)
-const { socialLinks,contactInfo } = data 
+  const { socialLinks, contactInfo } = data;
   // Handle escape key
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
@@ -93,10 +93,10 @@ const { socialLinks,contactInfo } = data
               <Link href="/" onClick={onClose}>
                 <Image
                   src="/logo.png"
-                  alt="Codespace Logo"
-                  width={140}
-                  height={35}
-                  className="h-9 w-auto"
+                  alt="Cod Active Logo"
+                  width={120}
+                  height={30}
+                  className="h-7 w-auto object-contain"
                 />
               </Link>
               <button
@@ -257,7 +257,7 @@ const { socialLinks,contactInfo } = data
             
             {/* Copyright */}
             <p className="mt-4 text-xs text-white/30 text-center">
-              © {new Date().getFullYear()} Codespace Infotech. All rights reserved.
+              © {new Date().getFullYear()} Cod Active. All rights reserved.
             </p>
           </div>
         </div>

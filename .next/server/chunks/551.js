@@ -1,0 +1,1 @@
+"use strict";exports.id=551,exports.ids=[551],exports.modules={7551:(e,s,t)=>{t.r(s),t.d(s,{default:()=>r});let r=(0,t(8570).createProxy)(String.raw`/Users/jems/apps/activecod-web/src/components/CustomerStats.tsx#default`)}};

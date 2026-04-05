@@ -206,14 +206,12 @@ export default function Footer() {
                 aria-label="Go to homepage"
               >
                 <Image
-                  src="/canva_1.png"
-                  alt="Logo"
-                  width={180}
-                  height={45}
-                  className="h-10 md:h-12  w-auto"
-                  priority
+                  src="/logo.png"
+                  alt="Cod Active Logo"
+                  width={120}
+                  height={30}
+                  className="h-7 w-auto object-contain brightness-0 invert opacity-80 hover:opacity-100 transition-opacity"
                 />
-                <span className="text-[30px]">Cod Active</span>
               </Link>
 
               <p className="text-white/60 text-sm leading-relaxed mb-6 max-w-sm">
@@ -337,7 +335,7 @@ export default function Footer() {
                 Privacy Policy
               </Link>
               <Link
-                href="/termsconditons"
+                href="/terms"
                 className="text-white/40 hover:text-white transition-colors"
               >
                 Terms of Service

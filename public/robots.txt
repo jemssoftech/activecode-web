@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.jemssoftech.com
+Host: https://www.codactive.com
 
 # Sitemaps
-Sitemap: https://www.jemssoftech.com/sitemap.xml
+Sitemap: https://www.codactive.com/sitemap.xml
