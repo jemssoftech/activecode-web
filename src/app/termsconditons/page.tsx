@@ -594,12 +594,12 @@ const TermsOfService: React.FC = () => {
         <div className="space-y-3">
           <p className="text-gray-300 leading-relaxed">
             By accessing or using the services provided by{" "}
-            <span className="font-semibold text-white">Jems Softech</span>{" "}
+            <span className="font-semibold text-white">Cod Active</span>{" "}
             (&quot;Company,&quot; &quot;we,&quot; &quot;our,&quot; or
             &quot;us&quot;), you (&quot;Client,&quot; &quot;you,&quot; or
             &quot;your&quot;) agree to be bound by these Terms of Service
             (&quot;Terms&quot;). These Terms constitute a legally binding
-            agreement between you and Jems Softech.
+            agreement between you and Cod Active.
           </p>
           <p className="text-gray-300 leading-relaxed">
             If you are entering into these Terms on behalf of a company or other
@@ -627,7 +627,7 @@ const TermsOfService: React.FC = () => {
       content: (
         <div className="space-y-4">
           <p className="text-gray-300 leading-relaxed">
-            <span className="font-semibold text-white">Jems Softech</span> is a
+            <span className="font-semibold text-white">Cod Active</span> is a
             professional IT solutions and software development company providing
             comprehensive technology services to businesses worldwide.
           </p>
@@ -1703,10 +1703,10 @@ const TermsOfService: React.FC = () => {
                 <span className="text-sm font-medium text-white">Website</span>
               </div>
               <a
-                href="https://www.jemssoftech.com"
+                href="https://www.codactive.com"
                 className="text-sm text-[var(--active-bgPrimary)] hover:underline"
               >
-                www.jemssoftech.com
+                www.codactive.com
               </a>
             </div>
 
@@ -1771,8 +1771,8 @@ const TermsOfService: React.FC = () => {
                   <Image
                     width={80}
                     height={80}
-                    src="/canva_1.png"
-                    alt="Jems Softech Logo"
+                    src="/logo.png"
+                    alt="Cod Active Logo"
                     className="w-16 h-16 object-contain"
                   />
                 </div>
@@ -1802,7 +1802,7 @@ const TermsOfService: React.FC = () => {
               transition={{ delay: 0.25 }}
               className="text-gray-400 mb-3"
             >
-              Jems Softech - IT Solutions & Software Development
+              Cod Active - IT Solutions & Software Development
             </motion.p>
 
             {/* Date */}
@@ -1838,8 +1838,8 @@ const TermsOfService: React.FC = () => {
                   Agreement Overview
                 </h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
-                  These Terms of Service govern your engagement with Jems
-                  Softech for IT services, software development, and related
+                  These Terms of Service govern your engagement with Cod
+                  Active for IT services, software development, and related
                   projects. By using our services, signing a proposal, or making
                   a payment, you agree to be bound by these terms and
                   conditions.

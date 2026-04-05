@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     'software development portfolio',
     'web development projects',
     'mobile app projects',
-    'Jems Softech work',
+    'Cod Active work',
   ],
 }
 

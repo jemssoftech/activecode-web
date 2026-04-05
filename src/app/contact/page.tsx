@@ -44,8 +44,8 @@ const contactInfo = [
   {
     icon: EnvelopeIcon,
     title: "Email Us",
-    value: "jemssofech@gmail.com",
-    href: "mailto:jemssofech@gmail.com",
+    value: "info@codactive.com",
+    href: "mailto:info@codactive.com",
     color: "from-blue-500/20 to-cyan-500/20",
     iconColor: "text-blue-400",
   },
@@ -107,7 +107,7 @@ export default function Contact() {
     setIsSubmitting(true);
     setSubmitStatus("idle");
     const payload = {
-      type: "jemssoft_user", 
+      type: "codactive_user", 
       name: data.name,
       email: data.email,
       mobile: data.phone,

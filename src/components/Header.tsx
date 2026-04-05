@@ -103,7 +103,7 @@ export default function Header() {
                 className="h-10 md:h-12  w-auto"
                 priority
               />
-              <span className="text-[30px]">Jems softtech</span>
+              <span className="text-[30px]">Cod Active</span>
             </Link>
 
             {/* Desktop Navigation */}

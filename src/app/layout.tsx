@@ -13,30 +13,30 @@ const urbanist = Urbanist({
 });
 
 const DOMAIN_URL =
-  process.env.NEXT_PUBLIC_DOMAIN_NAME || "https://jemssoftech.com";
+  process.env.NEXT_PUBLIC_DOMAIN_NAME || "https://codactive.com";
 
 export const metadata = {
   metadataBase: new URL(DOMAIN_URL),
 
   title: {
-    default: "Jems Softech | Best Software & Web Development Company in Surat",
-    template: "%s | Jems Softech - IT Solutions",
+    default: "Cod Active | Best Software & Web Development Company in Surat",
+    template: "%s | Cod Active - IT Solutions",
   },
 
   description:
-    "Jems Softech is a leading software development company in Surat, Gujarat. We specialize in custom website development, mobile app development, UI/UX design, e-commerce solutions, and digital transformation services. Get innovative IT solutions for your business growth.",
+    "Cod Active is a leading software development company in Surat, Gujarat. We specialize in custom website development, mobile app development, UI/UX design, e-commerce solutions, and digital transformation services. Get innovative IT solutions for your business growth.",
 
   keywords: [
     // ========== Brand Keywords ==========
-    "Jems Softech",
-    "JemsSoftech",
-    "Jems Software",
-    "Jems Softech Surat",
-    "Jems Softech IT Company",
-    "Jems Softech Software Agency",
-    "Jems Softech Services",
-    "Jems Softech Reviews",
-    "Jems Softech Portfolio",
+    "Cod Active",
+    "CodActive",
+    "Cod Active Software",
+    "Cod Active Surat",
+    "Cod Active IT Company",
+    "Cod Active Software Agency",
+    "Cod Active Services",
+    "Cod Active Reviews",
+    "Cod Active Portfolio",
 
     // ========== Local SEO - Surat (High Conversion) ==========
     "software company in surat",
@@ -256,12 +256,12 @@ export const metadata = {
   ],
 
   authors: [
-    { name: "Jems Softech", url: DOMAIN_URL },
+    { name: "Cod Active", url: DOMAIN_URL },
     { name: "Jenish Desai", url: DOMAIN_URL },
   ],
 
-  creator: "Jems Softech",
-  publisher: "Jems Softech",
+  creator: "Cod Active",
+  publisher: "Cod Active",
 
   robots: {
     index: true,
@@ -281,8 +281,8 @@ export const metadata = {
     type: "website",
     locale: "en_IN",
     url: DOMAIN_URL,
-    siteName: "Jems Softech",
-    title: "Jems Softech | Best Software & Web Development Company in Surat",
+    siteName: "Cod Active",
+    title: "Cod Active | Best Software & Web Development Company in Surat",
     description:
       "Leading software development company in Surat offering custom website development, mobile app development, UI/UX design, and digital transformation services. Transform your business with innovative IT solutions.",
     images: [
@@ -290,14 +290,14 @@ export const metadata = {
         url: `${DOMAIN_URL}/og-image.jpg`,
         width: 1200,
         height: 630,
-        alt: "Jems Softech - Software Development Company",
+        alt: "Cod Active - Software Development Company",
         type: "image/jpeg",
       },
       {
         url: `${DOMAIN_URL}/og-image-square.jpg`,
         width: 600,
         height: 600,
-        alt: "Jems Softech Logo",
+        alt: "Cod Active Logo",
         type: "image/jpeg",
       },
     ],
@@ -305,11 +305,11 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    site: "@jemssoftech",
-    creator: "@jemssoftech",
-    title: "Jems Softech | Best Software & Web Development Company",
+    site: "@codactive",
+    creator: "@codactive",
+    title: "Cod Active | Best Software & Web Development Company",
     description:
-      "Custom software development, website development, mobile app development & IT solutions. Transform your business with Jems Softech.",
+      "Custom software development, website development, mobile app development & IT solutions. Transform your business with Cod Active.",
     images: [`${DOMAIN_URL}/twitter-image.jpg`],
   },
 
@@ -368,7 +368,7 @@ const jsonLd = {
     {
       "@type": "Organization",
       "@id": `${DOMAIN_URL}/#organization`,
-      name: "Jems Softech",
+      name: "Cod Active",
       url: DOMAIN_URL,
       logo: {
         "@type": "ImageObject",
@@ -391,14 +391,14 @@ const jsonLd = {
           "@type": "ContactPoint",
           telephone: "+91-94094-27142",
           contactType: "sales",
-          email: "jemssoftech@gmail.com",
+          email: "codactive@gmail.com",
           areaServed: ["IN", "US", "GB", "AE", "AU"],
           availableLanguage: ["English", "Hindi", "Gujarati"],
         },
       ],
       sameAs: [
-        "https://www.linkedin.com/company/jemssoftech",
-        "https://www.instagram.com/jemssoft",
+        "https://www.linkedin.com/company/codactive",
+        "https://www.instagram.com/codactive",
       ],
       foundingDate: "2020",
       founders: [
@@ -412,7 +412,7 @@ const jsonLd = {
       "@type": "WebSite",
       "@id": `${DOMAIN_URL}/#website`,
       url: DOMAIN_URL,
-      name: "Jems Softech",
+      name: "Cod Active",
       description: "Best Software & Web Development Company in Surat, Gujarat",
       publisher: {
         "@id": `${DOMAIN_URL}/#organization`,
@@ -426,7 +426,7 @@ const jsonLd = {
     {
       "@type": "LocalBusiness",
       "@id": `${DOMAIN_URL}/#localbusiness`,
-      name: "Jems Softech",
+      name: "Cod Active",
       image: `${DOMAIN_URL}/office.jpg`,
       priceRange: "$$",
       address: {
@@ -465,7 +465,7 @@ const jsonLd = {
     },
     {
       "@type": "ProfessionalService",
-      name: "Jems Softech",
+      name: "Cod Active",
       serviceType: [
         "Software Development",
         "Web Development",

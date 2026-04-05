@@ -715,7 +715,7 @@ const PrivacyPolicy: React.FC = () => {
         <div className="space-y-4">
           <p className="text-gray-300 leading-relaxed">
             Welcome to{" "}
-            <span className="font-semibold text-white">Jems Softech</span>{" "}
+            <span className="font-semibold text-white">Cod Active</span>{" "}
             (&quot;we,&quot; &quot;our,&quot; &quot;us&quot;). We are a leading
             IT solutions and software development company committed to
             protecting the privacy and security of our clients, partners, and
@@ -727,7 +727,7 @@ const PrivacyPolicy: React.FC = () => {
           </p>
           <List
             items={[
-              "Visit our website (www.jemssoftech.com)",
+              "Visit our website (www.codactive.com)",
               "Engage with our software development services",
               "Use our web applications, mobile apps, or SaaS products",
               "Communicate with us via email, phone, or contact forms",
@@ -844,7 +844,7 @@ const PrivacyPolicy: React.FC = () => {
       content: (
         <div className="space-y-5">
           <p className="text-gray-400">
-            Jems Softech uses collected information for the following purposes:
+            Cod Active uses collected information for the following purposes:
           </p>
 
           {/* Service Delivery */}
@@ -907,7 +907,7 @@ const PrivacyPolicy: React.FC = () => {
       content: (
         <div className="space-y-5">
           <p className="text-gray-300 leading-relaxed">
-            At Jems Softech, we implement industry-leading security measures to
+            At Cod Active, we implement industry-leading security measures to
             protect your confidential business data, source code, and personal
             information. Security is at the core of everything we do.
           </p>
@@ -1022,7 +1022,7 @@ const PrivacyPolicy: React.FC = () => {
                 We Never Sell Your Data
               </h4>
               <p className="text-green-300/80 text-sm">
-                Jems Softech does not sell, rent, or trade your personal
+                Cod Active does not sell, rent, or trade your personal
                 information or business data to third parties for marketing or
                 any other purposes.
               </p>
@@ -1401,7 +1401,7 @@ const PrivacyPolicy: React.FC = () => {
       content: (
         <div className="space-y-5">
           <p className="text-gray-300 leading-relaxed">
-            As a global IT services provider, Jems Softech may transfer your
+            As a global IT services provider, Cod Active may transfer your
             data across international borders to deliver our services
             effectively.
           </p>
@@ -1444,7 +1444,7 @@ const PrivacyPolicy: React.FC = () => {
       content: (
         <div className="space-y-4">
           <p className="text-gray-300 leading-relaxed">
-            Jems Softech&apos;s services are designed for businesses and
+            Cod Active&apos;s services are designed for businesses and
             professionals. We do not knowingly collect personal information from
             children under the age of 16.
           </p>
@@ -1519,7 +1519,7 @@ const PrivacyPolicy: React.FC = () => {
                 <div className="p-2 rounded-lg bg-primary/20">
                   <Icons.Briefcase size={20} className="text-primary" />
                 </div>
-                <span className="font-semibold text-white">Jems Softech</span>
+                <span className="font-semibold text-white">Cod Active</span>
               </div>
               <p className="text-sm text-gray-400">
                 Your Trusted IT Solutions Partner
@@ -1535,10 +1535,10 @@ const PrivacyPolicy: React.FC = () => {
               </div>
 
               <a
-                href="mailto: jemssoftech@gmail.com"
+                href="mailto: codactive@gmail.com"
                 className="text-sm text-primary hover:underline"
               >
-                jemssoftech@gmail.com
+                codactive@gmail.com
               </a>
             </div>
 
@@ -1596,10 +1596,10 @@ const PrivacyPolicy: React.FC = () => {
               under GDPR or other data protection regulations, please email our
               dedicated privacy team at{" "}
               <a
-                href="mailto:jemssoftech@gmail.com"
+                href="mailto:codactive@gmail.com"
                 className="text-primary hover:underline"
               >
-                jemssoftech@gmail.com
+                codactive@gmail.com
               </a>
             </p>
           </div>
@@ -1638,7 +1638,7 @@ const PrivacyPolicy: React.FC = () => {
                     width={80}
                     height={80}
                     src="/canva_1.png"
-                    alt="Jems Softech Logo"
+                    alt="Cod Active Logo"
                     className="w-14 h-14 sm:w-16 sm:h-16 object-contain"
                   />
                 </div>
@@ -1663,7 +1663,7 @@ const PrivacyPolicy: React.FC = () => {
               transition={{ delay: 0.25 }}
               className="text-lg text-gray-400 mb-4"
             >
-              Jems Softech - IT Solutions & Software Development
+              Cod Active - IT Solutions & Software Development
             </motion.p>
 
             {/* Date Badge */}
@@ -1696,7 +1696,7 @@ const PrivacyPolicy: React.FC = () => {
                   Your Privacy is Our Priority
                 </h3>
                 <p className="text-gray-400 leading-relaxed">
-                  At Jems Softech, we understand that your data, source code,
+                  At Cod Active, we understand that your data, source code,
                   and business information are critical assets. This policy
                   outlines our commitment to protecting your privacy and
                   maintaining the highest standards of data security in all our

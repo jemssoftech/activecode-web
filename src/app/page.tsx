@@ -54,9 +54,9 @@ const CTA = dynamic(() => import("@/components/CTA"), {
 
 export const metadata: Metadata = {
   title:
-    "Jems Softech | Best Software & Web Development Company in Surat, Gujarat",
+    "Cod Active | Best Software & Web Development Company in Surat, Gujarat",
   description:
-    "Jems Softech is the best software development company in Surat. We offer custom website development, mobile app development, UI/UX design, e-commerce solutions, and IT consulting. Get a free quote today!",
+    "Cod Active is the best software development company in Surat. We offer custom website development, mobile app development, UI/UX design, e-commerce solutions, and IT consulting. Get a free quote today!",
   keywords: [
     "software company in surat",
     "web development company surat",
@@ -65,10 +65,10 @@ export const metadata: Metadata = {
     "custom software development surat",
   ],
   openGraph: {
-    title: "Jems Softech | Best Software Development Company in Surat",
+    title: "Cod Active | Best Software Development Company in Surat",
     description:
       "Transform your business with custom software solutions, web development, and mobile apps.",
-    url: "https://jemssoftech.com",
+    url: "https://codactive.com",
   },
 };
 

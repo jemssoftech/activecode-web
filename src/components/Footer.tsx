@@ -213,7 +213,7 @@ export default function Footer() {
                   className="h-10 md:h-12  w-auto"
                   priority
                 />
-                <span className="text-[30px]">Jems softtech</span>
+                <span className="text-[30px]">Cod Active</span>
               </Link>
 
               <p className="text-white/60 text-sm leading-relaxed mb-6 max-w-sm">
@@ -326,7 +326,7 @@ export default function Footer() {
         <div className="py-6 border-t border-white/10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-white/40 text-sm text-center md:text-left">
-              © 2023 Jems Softech. All rights reserved.
+              © 2023 Cod Active. All rights reserved.
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-6 text-sm">
