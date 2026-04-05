@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.jemssoftech.com
+
+# Sitemaps
+Sitemap: https://www.jemssoftech.com/sitemap.xml

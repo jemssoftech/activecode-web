@@ -1,0 +1,231 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #ffffff;
+  --background: #0f0f0f;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B6BCC6;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B6BCC6;
+}
+
+/* Magnetic Button Effect */
+@layer components {
+  .magnetic-button {
+    @apply relative overflow-hidden transition-all duration-300;
+  }
+  
+  .magnetic-button::before {
+    content: '';
+    @apply absolute inset-0 bg-white/10 scale-0 rounded-full transition-transform duration-500;
+  }
+  
+  .magnetic-button:hover::before {
+    @apply scale-150;
+  }
+  
+  .service-wrap {
+    @apply relative p-6 rounded-2xl border border-white/10 bg-gradient-to-br from-white/5 to-transparent backdrop-blur-sm transition-all duration-300;
+  }
+  
+  .service-wrap:hover {
+    @apply border-primary/50 transform -translate-y-2;
+    box-shadow: 0 20px 40px rgba(99, 102, 241, 0.15);
+  }
+  
+  .industries-wrap {
+    @apply flex flex-col items-center justify-center p-8 rounded-2xl border border-white/10 bg-gradient-to-br from-white/5 to-transparent backdrop-blur-sm transition-all duration-300 cursor-pointer;
+  }
+  
+  .industries-wrap:hover {
+    @apply border-primary/50 transform -translate-y-2;
+    box-shadow: 0 20px 40px rgba(99, 102, 241, 0.15);
+  }
+  
+  .customer-card {
+    @apply flex flex-col items-center justify-center p-8 rounded-2xl border border-white/10 bg-gradient-to-br from-white/5 to-transparent backdrop-blur-sm;
+  }
+  
+  .stack-item {
+    @apply transition-all duration-500;
+  }
+  
+  .portfolio-item {
+    @apply relative overflow-hidden rounded-2xl;
+  }
+  
+  .portfolio-item .card-overlay {
+    @apply absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6;
+  }
+  
+  .badge {
+    @apply px-3 py-1 text-sm rounded-full border border-white/30 bg-white/10 backdrop-blur-sm;
+  }
+  
+  .nav-link {
+    @apply relative text-white/70 hover:text-white transition-colors duration-300;
+  }
+  
+  .nav-link.active {
+    @apply text-white;
+  }
+  
+  .nav-link::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300;
+  }
+  
+  .nav-link:hover::after,
+  .nav-link.active::after {
+    @apply w-full;
+  }
+}
+
+/* Marquee Animation */
+.marquee-container {
+  @apply flex overflow-hidden;
+}
+
+.marquee-content {
+  @apply flex animate-marquee;
+}
+
+.marquee-content:hover {
+  animation-play-state: paused;
+}
+
+/* Swiper Custom Styles */
+.swiper-pagination-bullet {
+  @apply bg-white/30 opacity-100;
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-primary;
+}
+
+/* Hero Background Circles */
+.hero-bg .circle-1 {
+  @apply absolute -top-1/4 -right-1/4 w-[600px] h-[600px] opacity-20 animate-float;
+}
+
+.hero-bg .circle-2 {
+  @apply absolute -bottom-1/4 -left-1/4 w-[500px] h-[500px] opacity-15 animate-float;
+  animation-delay: 2s;
+}
+
+.stack {
+    display: flex;
+    flex-direction: column;
+}
+
+.stack__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1), 0 -1px 2px rgba(0, 0, 0, 0.25);
+    font-size: 10rem;
+    border-radius: 15px; /* Make corners round */
+    margin: 20px; /* Add space between cards */
+}
+
+.stack__card:nth-child(1) {
+    background-color: #E3342F;
+}
+
+.stack__card:nth-child(2) {
+    background-color: #38C172;
+}
+
+.stack__card:nth-child(3) {
+    background-color: #3490DC;
+}
+
+.stack__card:nth-child(4) {
+    background-color: #F66D9B;
+}
+
+.stack__card:nth-child(5) {
+    background-color: #F6993F;
+}
+
+/* globals.css or tailwind.css */
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  animation: gradient 3s ease infinite;
+}
+
+@keyframes zoom {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+.animate-zoom {
+  animation: zoom 20s ease-in-out infinite;
+}
+
+@keyframes spinner {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spinner {
+  animation: spinner 60s linear infinite;
+}
+
+main {
+  min-height: 100vh;
+}
+
+/* Loading spinner animation */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
